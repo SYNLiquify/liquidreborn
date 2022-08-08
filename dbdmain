@@ -1,0 +1,1840 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Es = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local TextButton_4 = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton_5 = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextButton_6 = Instance.new("TextButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextButton_7 = Instance.new("TextButton")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local TextButton_8 = Instance.new("TextButton")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextButton_9 = Instance.new("TextButton")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local TextButton_10 = Instance.new("TextButton")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local TextButton_11 = Instance.new("TextButton")
+local ImageLabel_9 = Instance.new("ImageLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextButton_12 = Instance.new("TextButton")
+local ImageLabel_10 = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ResetOnSpawn = false
+
+Es.Name = "Es"
+Es.Parent = ScreenGui
+Es.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+Es.BorderSizePixel = 0
+Es.Position = UDim2.new(0.364551097, 0, 0.323133409, 0)
+Es.Size = UDim2.new(0, 350, 0, 288)
+
+Frame.Parent = Es
+Frame.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(0, 350, 0, 31)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 137, 0, 31)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Liquid Hub Reborn."
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 15.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0399999991, 0, 1, 0)
+TextLabel_2.Size = UDim2.new(0, 114, 0, 31)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Dead by Roblox Menu"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.885714293, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 40, 0, 31)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "╳"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0171428565, 0, 1.61290324, 0)
+TextLabel_3.Size = UDim2.new(0, 74, 0, 19)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Lobby vers."
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 13.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.811428607, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 40, 0, 31)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.LineHeight = 1.500
+TextButton_2.Text = "_"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 20.000
+
+TextButton_3.Parent = Es
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0, 0, 0.504027784, 0)
+TextButton_3.Size = UDim2.new(0, 133, 0, 20)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "T3 All Perks (Killer)"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+ImageLabel.Parent = TextButton_3
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.860000014, 0, 0.157000005, 0)
+ImageLabel.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel.Image = "rbxassetid://6821759019"
+
+TextButton_4.Parent = Es
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0350000001, 0, 0.563055575, 0)
+TextButton_4.Size = UDim2.new(0, 129, 0, 22)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "T3 All Perks (Survivor)"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+ImageLabel_2.Parent = TextButton_4
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.930000007, 0, 0.223000005, 0)
+ImageLabel_2.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel_2.Image = "rbxassetid://6821759019"
+
+TextLabel_4.Parent = Es
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0, 0, 0.319444448, 0)
+TextLabel_4.Size = UDim2.new(0, 105, 0, 31)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Save Edit"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+
+TextLabel_5.Parent = Es
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0162857492, 0, 0.427083343, 0)
+TextLabel_5.Size = UDim2.new(0, 99, 0, 31)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Perks/Items"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 16.000
+
+TextButton_5.Parent = Es
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.0220000353, 0, 0.646416664, 0)
+TextButton_5.Size = UDim2.new(0, 136, 0, 19)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "INF All Items (Suvivor)"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+
+ImageLabel_3.Parent = TextButton_5
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(0.910933912, 0, 0.117078543, 0)
+ImageLabel_3.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel_3.Image = "rbxassetid://6821759019"
+
+TextButton_6.Parent = Es
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.0350000001, 0, 0.706509292, 0)
+TextButton_6.Size = UDim2.new(0, 114, 0, 18)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "INF All Items (Killer)"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+
+ImageLabel_4.Parent = TextButton_6
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Position = UDim2.new(0.930000007, 0, 0.149000004, 0)
+ImageLabel_4.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel_4.Image = "rbxassetid://6821759019"
+
+TextLabel_6.Parent = Es
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.0860000029, 0, 0.614000022, 0)
+TextLabel_6.Size = UDim2.new(0, 102, 0, 0)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "___________________"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 16.000
+
+TextLabel_7.Parent = Es
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.454285711, 0, 0.427083343, 0)
+TextLabel_7.Size = UDim2.new(0, 125, 0, 31)
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "Stat Modifier"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 16.000
+
+TextButton_7.Parent = Es
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.5, 0, 0.504027784, 0)
+TextButton_7.Size = UDim2.new(0, 80, 0, 17)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "P3 (Survivor)"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+
+ImageLabel_5.Parent = TextButton_7
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.Position = UDim2.new(0.902791977, 0, -0.0202936977, 0)
+ImageLabel_5.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel_5.Image = "rbxassetid://6821759019"
+
+TextButton_8.Parent = Es
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.491428584, 0, 0.563055575, 0)
+TextButton_8.Size = UDim2.new(0, 68, 0, 17)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "P3 (Killer)"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+
+ImageLabel_6.Parent = TextButton_8
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.Position = UDim2.new(0.882700741, 0, 0.0553964078, 0)
+ImageLabel_6.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel_6.Image = "rbxassetid://6821759019"
+
+TextLabel_8.Parent = Es
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.542857111, 0, 0.611055553, 0)
+TextLabel_8.Size = UDim2.new(0, 102, 0, 0)
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "___________________"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 16.000
+
+TextButton_9.Parent = Es
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BackgroundTransparency = 1.000
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.491428584, 0, 0.625, 0)
+TextButton_9.Size = UDim2.new(0, 76, 0, 24)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "1000000 BP"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 14.000
+
+ImageLabel_7.Parent = TextButton_9
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BackgroundTransparency = 1.000
+ImageLabel_7.Position = UDim2.new(0.886842072, 0, 0.173666656, 0)
+ImageLabel_7.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel_7.Image = "rbxassetid://6821759019"
+
+TextButton_10.Parent = Es
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.BackgroundTransparency = 1.000
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.502857149, 0, 0.69155556, 0)
+TextButton_10.Size = UDim2.new(0, 148, 0, 20)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Unlock Legion (Temporary)"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 14.000
+
+ImageLabel_8.Parent = TextButton_10
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_8.BackgroundTransparency = 1.000
+ImageLabel_8.Position = UDim2.new(0.987837791, 0, 0.215333343, 0)
+ImageLabel_8.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel_8.Image = "rbxassetid://6821759019"
+
+TextButton_11.Parent = Es
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.BackgroundTransparency = 1.000
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(0.00285714306, 0, 0.885972321, 0)
+TextButton_11.Size = UDim2.new(0, 115, 0, 20)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Reset Progress"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 14.000
+
+ImageLabel_9.Parent = TextButton_11
+ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_9.BackgroundTransparency = 1.000
+ImageLabel_9.Position = UDim2.new(0.838102281, 0, 0.156667069, 0)
+ImageLabel_9.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel_9.Image = "rbxassetid://6821759019"
+
+TextLabel_9.Parent = Es
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.0399999991, 0, 0.78125, 0)
+TextLabel_9.Size = UDim2.new(0, 102, 0, 31)
+TextLabel_9.Font = Enum.Font.SourceSansBold
+TextLabel_9.Text = "DANGER ZONE"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 16.000
+
+TextButton_12.Parent = Es
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.BackgroundTransparency = 1.000
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0.497142881, 0, 0.757527709, 0)
+TextButton_12.Size = UDim2.new(0, 104, 0, 20)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Set Online Rank: 1"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 14.000
+
+ImageLabel_10.Parent = TextButton_12
+ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_10.BackgroundTransparency = 1.000
+ImageLabel_10.Position = UDim2.new(0.970000029, 0, 0.00200000009, 0)
+ImageLabel_10.Size = UDim2.new(0, 15, 0, 15)
+ImageLabel_10.Image = "rbxassetid://6821759019"
+
+-- Scripts:
+
+local function MQRAN_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.CoreGui.ScreenGui:Destroy()
+	end)
+	
+end
+coroutine.wrap(MQRAN_fake_script)()
+local function RPWR_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Es.Visible = false
+	end)
+end
+coroutine.wrap(RPWR_fake_script)()
+local function GYBY_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local RS = game:GetService("ReplicatedStorage")
+	local player = game:GetService("Players").LocalPlayer
+	
+	--Remote
+	for i, v in ipairs(player.DataStorage.Inventory.Perks.Killer:GetChildren()) do
+		local A_1 =
+			{
+				[v.Name] =
+				{
+					["Got"] = true,
+					["Name"] = v.Name,
+					["Tier"] = 3
+				}
+			}
+		RS.RemoteEvents.UpdateInventoryPerksKillerCache:FireServer(A_1)
+		end
+	end)
+end
+coroutine.wrap(GYBY_fake_script)()
+local function ACWFAN_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local RS = game:GetService("ReplicatedStorage")
+	local player = game:GetService("Players").LocalPlayer
+	
+	--Remote
+	for i, v in ipairs(player.DataStorage.Inventory.Perks.Survivor:GetChildren()) do
+		local A_1 =
+			{
+				[v.Name] =
+				{
+					["Got"] = true,
+					["Name"] = v.Name,
+					["Tier"] = 3
+				}
+			}
+		RS.RemoteEvents.UpdateInventoryPerksSurvivorCache:FireServer(A_1)
+		end
+	end)
+end
+coroutine.wrap(ACWFAN_fake_script)()
+local function VCWBZOM_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = {
+				["FlashLight"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "PurpleFlashLight"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["FlashLight"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "FlashLight"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["ToolBox"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "WornOutTools"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["FlashLight"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "GreenFlashLight"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["ToolBox"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "SaboTools"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["MedKit"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "FirstAidKit"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+		
+	end)
+end
+coroutine.wrap(VCWBZOM_fake_script)()
+local function BJFG_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = {
+				["WindStormMud"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "WindStormMud"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["DoomEngravings"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "DoomEngravings"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["TrapperBag"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "TrapperBag"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["AtaxicRespiration"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "AtaxicRespiration"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["LeatherLoop"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "LeatherLoop"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["WindStormMud"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "MemorialFlower"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["WindStormMud"] = {
+					["Amount"] = 100000000000000,
+					["Class"] = "Pills"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+	end)
+end
+coroutine.wrap(BJFG_fake_script)()
+local function YYRBK_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = {
+				["SURVIVORP"] = {
+					["Name"] = "SURVIVORP",
+					["Amount"] = 3
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		game.Players.LocalPlayer.DataStorage.Stats.Level.Value = 49
+	
+		local args = {
+			[1] = "Survivor",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = true
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Survivor",
+			[2] = "Legs",
+			[3] = "Prestige",
+			[4] = true
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Survivor",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = true
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+	end)
+end
+coroutine.wrap(YYRBK_fake_script)()
+local function DBOEL_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = {
+				["HILLBILLYP"] = {
+					["Name"] = "HILLBILLYP",
+					["Amount"] = 3
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["HillbillyLevel"] = {
+					["Name"] = "HillbillyLevel",
+					["Amount"] = 49
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "HillBilly"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "HillBilly"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "HillBilly"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["NURSEP"] = {
+					["Name"] = "NURSEP",
+					["Amount"] = 3
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["NurseLevel"] = {
+					["Name"] = "NurseLevel",
+					["Amount"] = 49
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Nurse"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Nurse"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Nurse"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["DOCTORP"] = {
+					["Name"] = "DOCTORP",
+					["Amount"] = 3
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["DoctorLevel"] = {
+					["Name"] = "DoctorLevel",
+					["Amount"] = 49
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Doctor"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Doctor"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Doctor"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["TRAPPERP"] = {
+					["Name"] = "TRAPPERP",
+					["Amount"] = 3
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["TrapperLevel"] = {
+					["Name"] = "TrapperLevel",
+					["Amount"] = 49
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Trapper"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Trapper"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Trapper"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["WRAITHP"] = {
+					["Name"] = "WRAITHP",
+					["Amount"] = 3
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["WraithLevel"] = {
+					["Name"] = "WraithLevel",
+					["Amount"] = 49
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Wraith"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Wraith"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Wraith"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["HUNTRESSP"] = {
+					["Name"] = "HUNTRESSP",
+					["Amount"] = 3
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["HuntressLevel"] = {
+					["Name"] = "HuntressLevel",
+					["Amount"] = 49
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Huntress"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Huntress"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Huntress"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["SHAPEP"] = {
+					["Name"] = "SHAPEP",
+					["Amount"] = 3
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["ShapeLevel"] = {
+					["Name"] = "ShapeLevel",
+					["Amount"] = 49
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Shape"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Shape"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Shape"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["LEGIONP"] = {
+					["Name"] = "LEGIONP",
+					["Amount"] = 3
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["LegionLevel"] = {
+					["Name"] = "LegionLevel",
+					["Amount"] = 49
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Legion"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Legion"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = true,
+			[5] = "Legion"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(DBOEL_fake_script)()
+local function KKUU_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.DataStorage.Stats.BloodPoints.Value = 999999999
+	end)
+end
+coroutine.wrap(KKUU_fake_script)()
+local function DSLNOEE_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.DataStorage.Inventory.Characters.Killer.Legion.Value = true
+	end)
+end
+coroutine.wrap(DSLNOEE_fake_script)()
+local function GJUY_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer({ ["Rank"]= { ["Name"]= "Rank", ["Amount"]= 20 } })
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.DataStorage.Inventory.Characters.Killer.Legion.Value = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = {
+				["SURVIVORP"] = {
+					["Name"] = "SURVIVORP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		game.Players.LocalPlayer.DataStorage.Stats.Level.Value = 0
+	
+		local args = {
+			[1] = "Survivor",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Survivor",
+			[2] = "Legs",
+			[3] = "Prestige",
+			[4] = false
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Survivor",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = {
+				["HILLBILLYP"] = {
+					["Name"] = "HILLBILLYP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["HillbillyLevel"] = {
+					["Name"] = "HillbillyLevel",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "HillBilly"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "HillBilly"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "HillBilly"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["NURSEP"] = {
+					["Name"] = "NURSEP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["NurseLevel"] = {
+					["Name"] = "NurseLevel",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Nurse"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Nurse"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Nurse"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["DOCTORP"] = {
+					["Name"] = "DOCTORP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["DoctorLevel"] = {
+					["Name"] = "DoctorLevel",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Doctor"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Doctor"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Doctor"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["TRAPPERP"] = {
+					["Name"] = "TRAPPERP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["TrapperLevel"] = {
+					["Name"] = "TrapperLevel",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Trapper"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Trapper"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Trapper"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["WRAITHP"] = {
+					["Name"] = "WRAITHP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["WraithLevel"] = {
+					["Name"] = "WraithLevel",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Wraith"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Wraith"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Wraith"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["HUNTRESSP"] = {
+					["Name"] = "HUNTRESSP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["HuntressLevel"] = {
+					["Name"] = "HuntressLevel",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Huntress"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Huntress"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Huntress"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["SHAPEP"] = {
+					["Name"] = "SHAPEP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["ShapeLevel"] = {
+					["Name"] = "ShapeLevel",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Shape"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Shape"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Shape"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["LEGIONP"] = {
+					["Name"] = "LEGIONP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["LegionLevel"] = {
+					["Name"] = "LegionLevel",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Legion"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Legion"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Killer",
+			[2] = "Weapon",
+			[3] = "Prestige",
+			[4] = false,
+			[5] = "Legion"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = {
+				["WindStormMud"] = {
+					["Amount"] = 0,
+					["Class"] = "WindStormMud"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["DoomEngravings"] = {
+					["Amount"] = 0,
+					["Class"] = "DoomEngravings"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["TrapperBag"] = {
+					["Amount"] = 0,
+					["Class"] = "TrapperBag"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["AtaxicRespiration"] = {
+					["Amount"] = 0,
+					["Class"] = "AtaxicRespiration"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["LeatherLoop"] = {
+					["Amount"] = 0,
+					["Class"] = "LeatherLoop"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["MemorialFlower"] = {
+					["Amount"] = 0,
+					["Class"] = "MemorialFlower"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["Pills"] = {
+					["Amount"] = 0,
+					["Class"] = "Pills"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = {
+				["FlashLight"] = {
+					["Amount"] = 0,
+					["Class"] = "PurpleFlashLight"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["FlashLight"] = {
+					["Amount"] = 0,
+					["Class"] = "FlashLight"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["ToolBox"] = {
+					["Amount"] = 0,
+					["Class"] = "WornOutTools"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["FlashLight"] = {
+					["Amount"] = 0,
+					["Class"] = "GreenFlashLight"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = {
+				["ToolBox"] = {
+					["Amount"] = 0,
+					["Class"] = "SaboTools"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+		
+		local args = {
+			[1] = {
+				["MedKit"] = {
+					["Amount"] = 0,
+					["Class"] = "FirstAidKit"
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateInventoryItemsCache:FireServer(unpack(args))
+	
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local RS = game:GetService("ReplicatedStorage")
+		local player = game:GetService("Players").LocalPlayer
+	
+		--Remote
+		for i, v in ipairs(player.DataStorage.Inventory.Perks.Killer:GetChildren()) do
+			local A_1 =
+				{
+					[v.Name] =
+					{
+						["Got"] = false,
+						["Name"] = v.Name,
+						["Tier"] = 0
+					}
+				}
+			RS.RemoteEvents.UpdateInventoryPerksKillerCache:FireServer(A_1)
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local RS = game:GetService("ReplicatedStorage")
+		local player = game:GetService("Players").LocalPlayer
+	
+		--Remote
+		for i, v in ipairs(player.DataStorage.Inventory.Perks.Survivor:GetChildren()) do
+			local A_1 =
+				{
+					[v.Name] =
+					{
+						["Got"] = false,
+						["Name"] = v.Name,
+						["Tier"] = 0
+					}
+				}
+			RS.RemoteEvents.UpdateInventoryPerksSurvivorCache:FireServer(A_1)
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.DataStorage.Stats.BloodPoints.Value = 0
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = {
+				["SURVIVORP"] = {
+					["Name"] = "SURVIVORP",
+					["Amount"] = 0
+				}
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer(unpack(args))
+	
+		game.Players.LocalPlayer.DataStorage.Stats.Level.Value = 0
+	
+		local args = {
+			[1] = "Survivor",
+			[2] = "Torso",
+			[3] = "Prestige",
+			[4] = false
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Survivor",
+			[2] = "Legs",
+			[3] = "Prestige",
+			[4] = false
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Survivor",
+			[2] = "Head",
+			[3] = "Prestige",
+			[4] = false
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.Updatenew_SkinsCache:FireServer(unpack(args))
+	
+	end)
+	
+	
+end
+coroutine.wrap(GJUY_fake_script)()
+local function JAJNS_fake_script() -- Es.LocalScript 
+	local script = Instance.new('LocalScript', Es)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local MainFrame = script.Parent.Parent.Es
+	local RepositioningFrame = MainFrame:WaitForChild("Frame")
+	
+	local Camera = workspace:WaitForChild("Camera")
+	
+	local DragMousePosition
+	local FramePosition
+	
+	local Draggable = false
+	
+	RepositioningFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Draggable = true
+			DragMousePosition = Vector2.new(input.Position.X, input.Position.Y)
+			FramePosition = Vector2.new(MainFrame.Position.X.Scale, MainFrame.Position.Y.Scale)
+		end
+	end)
+	
+	RepositioningFrame.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Draggable = false
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if Draggable == true then
+			local NewPosition = FramePosition + ((Vector2.new(input.Position.X, input.Position.Y) - DragMousePosition) / Camera.ViewportSize)
+			MainFrame.Position = UDim2.new(NewPosition.X, 0, NewPosition.Y, 0)
+		end
+	end)
+end
+coroutine.wrap(JAJNS_fake_script)()
+local function BMQLODK_fake_script() -- Es.LocalScript 
+	local script = Instance.new('LocalScript', Es)
+
+	local FrameObject = script.Parent
+	local Open = false
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(Input, gameprocess)
+		if not gameprocess then
+			if Input.KeyCode == Enum.KeyCode.Home then
+				if Open then
+					Open = false
+					script.Parent.Parent.Es.Visible = true
+				else
+					Open = true
+					script.Parent.Parent.Es.Visible = false
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(BMQLODK_fake_script)()
+local function RKYSIY_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").RemoteEvents.UpdateStatsCache:FireServer({ ["Rank"]= { ["Name"]= "Rank", ["Amount"]= 1 } })
+	end)
+end
+coroutine.wrap(RKYSIY_fake_script)()
